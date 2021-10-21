@@ -35,6 +35,7 @@ const getSearch = e => {
   return(
     <div className="App">
       <h1 align="center">Here is Your Recipe Kit!</h1>
+      <h2 align="center">Search Some Food to get the recipe</h2>
       <form onSubmit={getSearch} className="search-form">
         <input 
           className ="search-bar" placeholder="Search what your going to make..."
